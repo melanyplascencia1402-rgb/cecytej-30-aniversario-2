@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="hero-school"><div class="school-art">CECyTEJ <b>08</b></div></div>
+    
+  <div class="hero-copy">
+    <p class="eyebrow">1996 — 2026</p>
+    <h1>30 años formando generaciones,<br>construyendo oportunidades</h1>
+        <img 
+        src="https://cdn.phototourl.com/anon/2026-11-21-1ace55b5-c055-4d10-b843-6805f9142d63.png"
+        alt="Mi imagen"
+        width="300"
+        >
+      <img 
+        src="https://cdn.phototourl.com/anon/2026-11-21-0e7f4641-94c0-4f0c-9eb4-1aef5fe8cb1f.png"
+        alt="Mi imagen"
+        width="300"
+        >
+    <p>Bienvenido a nuestra aplicación conmemorativa del 30 aniversario.</p>
+     
+  </div>
+</section>
+<section class="menu-grid">
+  <a class="menu-card" href="{{ url_for('historia') }}"><span>▦</span><b>Nuestra historia</b><i>›</i></a>
+  <a class="menu-card" href="{{ url_for('voces') }}"><span>♧</span><b>Voces que dejan huella</b><i>›</i></a>
+  <a class="menu-card" href="{{ url_for('orgullo') }}"><span>🏆</span><b>Orgullo CECyTEJ</b><i>›</i></a>
+  <a class="menu-card" href="{{ url_for('eventos') }}"><span>🎉</span><b>Celebremos juntos</b><i>›</i></a>
+  <a class="menu-card" href="{{ url_for('futuro') }}"><span>🚀</span><b>Nuestro futuro</b><i>›</i></a>
+</section>
+{% endblock %}
