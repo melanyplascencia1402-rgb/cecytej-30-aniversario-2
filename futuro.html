@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-heading"><a href="{{ url_for('inicio') }}">‹</a><h1>Nuestro futuro</h1><span>⌂</span></div>
+<section class="future-hero"><div class="school-art">CECyTEJ <b>08</b></div><h2>En 30 años...<br>seguiremos innovando</h2></section>
+<div class="future-grid">
+  <section class="paper"><h2>Nuestras metas</h2><ul class="check-list"><li>Más tecnología.</li><li>Nuevas carreras.</li><li>Mejores instalaciones.</li><li>Mayor impacto social.</li></ul><p class="slogan">Juntos construimos el futuro del CECyTEJ.</p></section>
+  <section class="paper"><h2>Comparte tu mensaje</h2><form method="post"><label>Nombre<input name="nombre" required></label><label>Semestre<input name="semestre"></label><label>Grupo<input name="grupo"></label><label>Tu mensaje<textarea name="mensaje" rows="4" required></textarea></label><button type="submit">➤ Enviar mensaje</button></form></section>
+</div>
+{% endblock %}
