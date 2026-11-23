@@ -1,6 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 
 app = Flask(__name__)
+import os
+
+print("RUTA DEL PROYECTO:", os.getcwd())
+print("ARCHIVOS:", os.listdir())
+print("PLANTILLAS:", os.listdir("templates"))
 app.secret_key = "cecytej-30-aniversario"
 
 @app.route("/")
