@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-heading"><a href="{{ url_for('inicio') }}">‹</a><h1>Orgullo CECyTEJ</h1><span>⌂</span></div>
+<section class="category-grid">
+  <article class="category"><div>💻</div><h2>Tecnología</h2><p>Programación, herramientas digitales y proyectos tecnológicos.</p></article>
+  <article class="category"><div>⚛️</div><h2>Ciencia</h2><p>Curiosidad, experimentación y aprendizaje.</p></article>
+  <article class="category"><div>⚽</div><h2>Deportes</h2><p>Participación, trabajo en equipo y disciplina.</p></article>
+  <article class="category"><div>🎭</div><h2>Cultura</h2><p>Expresión artística, tradiciones y creatividad.</p></article>
+</section>
+<section class="paper">
+  <h2>Galería de proyectos</h2>
+  <p>Un espacio para mostrar maquetas, prácticas, prototipos y trabajos realizados por estudiantes.</p>
+<p>SENORITA CECYTEJ</p>
+    <img 
+        src="https://cdn.phototourl.com/anon/2026-11-21-713e66b2-caed-4a4f-9d14-5c3be4110ded.png"
+        alt="Mi imagen"
+        width="300"
+        >
+        <img 
+        src="https://cdn.phototourl.com/anon/2026-11-22-d91d8674-eca7-45bd-9abc-5b8edf822432.jpg"
+        alt="Mi imagen"
+        width="300"
+        >
+  <h2>Nuestros logros</h2>
+  <ul class="check-list"><li>Participación en concursos académicos.</li><li>Desarrollo de proyectos innovadores.</li><li>Actividades culturales y deportivas.</li></ul>
+  <p class="muted">Añade los nombres, fechas y reconocimientos comprobados de cada logro.</p>
+</section>
+{% endblock %}
